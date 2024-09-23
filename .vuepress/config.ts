@@ -2,7 +2,6 @@ import { defineConfig } from "vuepress/config";
 import navbar from "./navbar";
 import sidebar from "./sidebar";
 import footer from "./footer";
-import extraSideBar from "./extraSideBar";
 
 const author = "Nofeis";
 const domain = "https://pengyuheng-github.github.io/JAVA_XX/";
@@ -10,6 +9,7 @@ const tags = ["程序员", "编程", "计算机", "JAVA"];
 
 export default defineConfig({
   title: "JAVA程序员修仙手册",
+  base: "/JAVA_XX/",
   description: "修炼一途，长路漫漫",
   head: [
     // 站点图标
