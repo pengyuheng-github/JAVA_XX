@@ -37,5 +37,9 @@ export default [
         text: "论道",
         link: '/论道/'
     },
+    {
+        text: "宗门情报",
+        link: '/宗门情报/'
+    },
 
 ] as NavItem[];
